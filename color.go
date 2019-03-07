@@ -75,8 +75,7 @@ func init() {
 	colorCodes["white"] = colorCodes["bold"]
 }
 
-/*
-	Format ``text`` with a color and/or some attributes::
+/* Colorize: Format ``text`` with a color and/or some attributes::
 
 		color       normal color
 		*color*     bold color
