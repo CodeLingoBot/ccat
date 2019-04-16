@@ -82,6 +82,12 @@ func init() {
 		*color*     bold color
 		_color_     underlined color
 		+color+     blinking color
+*/Format ``text`` with a color and/or some attributes::
+
+		color       normal color
+		*color*     bold color
+		_color_     underlined color
+		+color+     blinking color
 */
 func Colorize(attr, text string) string {
 	if attr == "" {
